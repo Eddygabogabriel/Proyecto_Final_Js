@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> THI&GIL C.A.</title>
+    <link rel="icon" href="./img/ico_oficial.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link data-react-helmet="true" rel="shortcut icon" type="shortcut icon" sizes="32x32" href="/arquivos/cafemartinez-favicon.ico">
+  </head>
+  <body class="colorFondo">
+    <div class="container my-5">
+      <nav class="navbar bg-body-tertiary ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="./img/logo_sin_fondo.png" alt="THI-GIL" >   
+            </a> 
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <header>
+        <div >
+            <img class="fondo"  src="./img/2022.jpg"alt="thi&gil">
+        </div>
+        <div class="col text-end">
+          <div class="carrito">
+            <a href="carrito.html" class="btn colorFondo2 position-relative">
+              <img src="img/carrito.svg" alt="Carrito" width="24">
+              <span id="totalCarrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+           </a>  
+
+          </div>
+                           
+      </div>
+       
+    </header>
+        <div id="productos" class="row"></div>
+    </div>
+    <div class="errorModal" style="display: none; text-align: center; color: #FFF;">No se encontraron productos en este momento, por favor intente mas tarde</div>
+    <section id="nosotros" class="productos">
+     <div class="contenedor">
+          <div class="col-md-4">
+            <img src="./img/clientes.jpeg" class="img-fluid " alt="thi&gil bienvenido">
+          </div>
+         
+         
+            <div class="card-body">
+              <h5 class="card-title">Quiene somos</h5>
+              <p class="card-text "> <b>¡Bienvenidos a Inversiones y Suministros THI-GIL C.A.!</b>
+
+                En THI-GIL, nos enorgullece ser tu destino confiable para soluciones de filtración de alta calidad y repuestos automotrices. Con un compromiso inquebrantable con la excelencia y la satisfacción del cliente, estamos aquí para satisfacer todas tus necesidades de suministros automotrices.
+                
+                Nuestra especialización se centra en la venta de filtros de aceite y aire, así como una amplia gama de repuestos para automóviles, camionetas y camiones. Ya sea que seas un conductor apasionado o un profesional de la industria automotriz, encontrarás en nosotros a tu socio de confianza.
+                
+                Explora nuestra selección de filtros de aceite y aire de primera calidad que garantizan un rendimiento óptimo de tu motor y una vida útil prolongada. Además, nuestros repuestos cuentan con los más altos estándares de calidad para mantener tu vehículo en su mejor estado.
+                
+                En THI-GIL, nuestra misión es proporcionar productos de calidad superior a precios competitivos y ofrecer un servicio al cliente excepcional. Nos esforzamos por superar tus expectativas en cada compra.
+                
+                Gracias por visitar nuestro sitio web. Explora nuestra amplia gama de productos y no dudes en contactarnos si tienes alguna pregunta o necesitas asistencia. Estamos aquí para servirte y ayudarte a mantener tus vehículos en excelente estado.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+        <p class="col-md-4 mb-0 .text-white">&copy; Repuestos Suministros THI&GIL 2024 - BY EDDY ALVAREZ C.</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li class="nav-item"><a href="#nosotros" class="nav-link px-2 text-white">Nosotros</a></li>
+         
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

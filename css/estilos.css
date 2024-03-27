@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 9rem;
+}
+.nav-link{
+    color: rgb(253, 5, 5);
+
+}
+.carrito{
+    padding: 2%;
+}
+.fondo{
+  
+    width:100%;
+    object-fit: contain;
+    height: auto;
+}
+.card-body{
+    background-color:rgba(255, 0, 0, 0);
+    color:white;
+    font-weight: 600;
+    font-size: larger;
+    width: 20px;
+}
+.img-fluid{
+    padding:6%;
+}
+#productos{
+    padding:6%;
+    margin: 1%;
+   align-content: space-between;
+}
+.productos{
+    padding:3%;
+    margin: 1%;
+    /* width: 20px; */
+   align-content: space-between;
+   background-color:rgba(255, 0, 0, 0.253);
+   display: flex;
+   width: 100%;
+}
+.contenedor{
+    display: flex;
+    padding:6%;
+    margin: 1%;
+text-align: justify;
+   width:100%;
+   object-fit: contain;
+   height: auto;
+}
+
+.roboto-thin {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.roboto-light {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.roboto-medium {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.roboto-black {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.roboto-thin-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.roboto-light-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.roboto-regular-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.roboto-medium-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.roboto-bold-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.roboto-black-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: italic;
+}  
+
+.colorFondo {
+    background-color:rgb(0, 0, 0);
+    color: rgba(255, 0, 0, 0.253);
+}
+
+.colorFondo2 {
+    background-color: rgb(253, 5, 5);
+    color:white;
+}
+
+.colorFuente {
+    padding: 1rem;
+    color:rgb(253, 5, 5);
+    font-weight: 300;
+    
+}
+.footer{
+    color:rgba(255, 0, 0, 0.253);
+    font-weight: 300;
+}
